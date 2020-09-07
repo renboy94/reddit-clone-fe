@@ -20,6 +20,6 @@ describe("App", () => {
         <Header />
       </ThemeProvider>
     );
-    expect(screen.getByTestId("header-title")).toHaveTextContent("Reddit");
+    expect(screen.getByTestId("header-title")).toHaveTextContent("Redditz");
   });
 });
